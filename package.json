@@ -1,0 +1,39 @@
+{
+  "name": "egy-store-server",
+  "version": "1.0.0",
+  "description": "EGY STORE Next.js Backend API",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "server": "node server.js",
+    "init-db": "node scripts/init.js"
+  },
+  "pnpm": {
+    "allowedScriptDependencies": [
+      "sharp"
+    ]
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^7.2.0",
+    "mongoose": "^8.23.1",
+    "next": "^15.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "socket.io": "^4.8.3"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "^15.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "المالك",
+      "email": "mhamedmagdy053@gmail.com",
+      "phone": "01000000000",
+      "password": "Eladwe511",
+      "role": "admin",
+      "permissions": [
+        "all"
+      ],
+      "approved": true,
+      "createdAt": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": 1778207602264,
+      "name": "????",
+      "email": "ahmed@example.com",
+      "phone": "01012345678",
+      "password": "pass123",
+      "role": "employee",
+      "permissions": [],
+      "approved": false,
+      "createdAt": "2026-05-08T02:33:22.264Z"
+    }
+  ]
+}
